@@ -23,6 +23,11 @@ header
     justify-content: center;
     text-align: center;
 }
+
+body
+{
+    background-color: cyan;
+}
 nav
 {position: fixed;
 top: 0;
@@ -51,4 +56,14 @@ section ul
 {
     padding-left: 2em;
 }
+footer
+{
+    text-align: center;
+    justify-content: center;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: cornflowerblue;
+}
+
 
