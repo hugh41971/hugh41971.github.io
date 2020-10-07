@@ -44,6 +44,11 @@ body
     width: 10rem;
     
 }
+#myProjects article
+{
+    width: 10rem;
+
+}
 nav
 {
     position: fixed;
