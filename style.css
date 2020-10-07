@@ -5,11 +5,13 @@
     margin: 0;
     padding: 0;
 }
+
 html
 {
     font-size: 16px;
     margin-top: 3em;
 }
+
 header,
 main,
 footer
@@ -17,44 +19,70 @@ footer
     margin: 0 auto;
     max-width: 800px;
 }
+
 header
 {
     font-size: 1.5em;
     justify-content: center;
     text-align: center;
 }
+
 body
 {
     background-color: rgb(169, 226, 226);
 }
-nav
-{position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-display: flex;
-flex-flow: row;
-justify-content: center;
-background: cornflowerblue;
+
+#myProjects
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
+
+#myProjects img
+{
+    width: 10rem;
+    
+}
+nav
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    background: cornflowerblue;
+}
+
 nav a
 {
     padding: .5em 2em;
     text-decoration: none;
     color: cornsilk;
 }
+
 nav a :hover
 {
     color: greenyellow;
 }
+
 section
 {
     margin: 1em 0;
 }
+
 section ul
 {
     padding-left: 2em;
 }
+
+section div
+{
+    padding-left: 2em;
+}
+
 footer
 {
     text-align: center;
