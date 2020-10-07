@@ -29,7 +29,7 @@ header
 
 body
 {
-    background-color: rgb(169, 226, 226);
+    background-color:#9ab7d5;
 }
 
 #myProjects
@@ -70,7 +70,7 @@ nav a
 
 nav a :hover
 {
-    color: greenyellow;
+    color: rgb(140, 202, 25);
 }
 
 section
