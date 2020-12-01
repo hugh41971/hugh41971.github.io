@@ -4,6 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
 }
 
 html
@@ -29,9 +30,9 @@ header
 
 body
 {
-    background-color:#9ab7d5;
+    background-color:cyan;
+    
 }
-
 #myProjects
 {
     display: flex;
@@ -58,6 +59,7 @@ nav
     display: flex;
     flex-flow: row;
     justify-content: center;
+    text-align: center;
     background: cornflowerblue;
 }
 
@@ -68,7 +70,7 @@ nav a
     color: cornsilk;
 }
 
-nav a :hover
+nav a :hover, a :active
 {
     color: rgb(140, 202, 25);
 }
